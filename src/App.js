@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+// import Tabar from './components/tabar';
+import RourerMap from './router'
+import './static/iconfont.css';
+import './App.css';
 
-import B from './components/B'
 
+console.log(RourerMap)
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <B />
+        <RourerMap />
       </div>
     );
   }

@@ -1,7 +1,14 @@
-## react高阶组件例子
+## react高阶组件
+
+## 底部导航是一个高阶组件，其余tabar使用高阶组件
+
+  高阶组价本身不是一个组件，只是一个函数
 
 ## 安装依赖
-  cnpm install or npm install
+  npm install or cnpm install
 
-## A组件是高阶组件，B组件是使用
-  高阶组件其实不是一个组件，只是一个函数，把组件注册到函数中进行渲染
+## 启动
+  npm run start or npm start
+
+## 打包
+  npm run build
